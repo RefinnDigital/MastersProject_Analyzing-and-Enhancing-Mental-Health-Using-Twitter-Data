@@ -47,30 +47,12 @@ st.set_page_config(
 
 DB_NAME = "postgres"
 DB_USER = "postgres"
-DB_PASSWORD = "nnedinma"
+DB_PASSWORD = " " #add your DB password
 DB_HOST = "localhost"
 DB_PORT = "5432"
 
 
 
-# def add_bg_from_local(image_file):
-#     with open(image_file, "rb") as image_file:
-#         encoded_string = base64.b64encode(image_file.read())
-#         st.markdown(
-#      f"""
-#     <style>
-#     .stApp {{
-#         background-image: url(data:image/{"png"};base64,{encoded_string.decode()});
-#         background-size: cover;
-#         background-repeat: no-repeat;
-#         background-position: center;
-#         max-width: 1800px;   
-#     }}
-#     </style>
-#     """,
-#     unsafe_allow_html=True
-#     )
-# add_bg_from_local('.\\pages\\img\\temp_img.png')
 
 
 st.markdown("""
@@ -223,7 +205,7 @@ def get_tweets_v2(handle, start_date, end_date, bearer_token):
 # Use this function in your Streamlit app:
 
 # Provide your Bearer Token from the Twitter Developer Dashboard.
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAHwBnAEAAAAAicMoesXzGhvoPuOrOVLeygAzajE%3DUacc8tELonO4BVsABI1Q3HO6CJpiZWJZtNKsQYOeV8xZ4eTEHF"
+bearer_token = " " # We removed to adhere strictly to privacy and confidentiality standards
 if 'start_date' in locals() and 'end_date' in locals() and handle:
     tweets = get_tweets_v2(handle, start_date, end_date, bearer_token)
 
