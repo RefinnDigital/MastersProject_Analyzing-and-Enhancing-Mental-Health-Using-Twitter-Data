@@ -20,18 +20,19 @@ import string
 #import preprocessor as p
 
 
-
-import tweepy
-import pandas as pd
+# Due to Twitter policy restrictions, we used multiple Twitter API accounts to pull tweets, as seen in our code.
 
 
 
-consumer_key = "IgXYxlulbwYMKS6t0HJP128mQ"
-consumer_secret = "MLnhrcylwasHvX8wytmxw49sN4ZEQvKbmocH9vgCe40HoOvjuS"
-access_key= "1509839153982316546-scDA0A3JnXD7rU0PNtSJig6wBGgbRd"
-access_secret = "FvPXJdbV6gKgfib7rfVZtolWhf2Z4QrACkxNRZpIWZPeK"
+# Due to privacy concerns, the API keys have been removed. 
+# If you're using this code, insert your own API keys in the appropriate places.
 
-#Passing in  twitter API authentication key
+ consumer_key = "YOUR_CONSUMER_KEY"
+ consumer_secret = "YOUR_CONSUMER_SECRET"
+ access_key= "YOUR_ACCESS_KEY"
+ access_secret = "YOUR_ACCESS_SECRET"
+
+#Passing in  Twitter API authentication key
 auth = tweepy.OAuth1UserHandler(
     consumer_key, consumer_secret,
     access_key, access_secret
@@ -61,40 +62,20 @@ for i in search_query:
     except BaseException as e:
         print('Status Failed On,',str(e))
 
-data_1 =  pd.read_excel("/content/MH_tweets_1.xlsx")
-data_1
-
-data
-
-data.to_csv("COMBINED_DF.csv")
-
-DF = pd.read_csv("/content/Comb-Data_Tweet.csv")
-DF
-
-DF_1 = pd.read_csv("/content/main_comb.csv")
-DF_1
-
-DF_2 = pd.read_csv("/content/main_data.csv")
-DF_2
-
-data.to_csv("Tweet_comb.csv")
-
-data.info()
-
-
-
 tweets_df
 
-#tweets_df.to_csv("Data_Tweet.csv")
+tweets_df.to_csv("Data_Tweet.csv")
 
-tweets_data
 
-#tweets_data.to_csv("Data_Tweet.csv")
 
-consumer_key = "h1r2JohHCOMzrpZLXVZRRazi3"
-consumer_secret = "HeTtOasCAxTxw78PikObFIYkPzuB21mBCgx5GUm1Stvz5MDfuW"
-access_key= "964035289617494018-GKBW2kmouEOvBheRVLUd7x68MqNPlKU"
-access_secret = "L9wiUBXQwbmP3HJlDQuHiw8lVomkU2KdtmQwhHaXgsgJh"
+# Due to privacy concerns, the API keys have been removed. 
+# If you're using this code, insert your own API keys in the appropriate places.
+
+ consumer_key = "YOUR_CONSUMER_KEY"
+ consumer_secret = "YOUR_CONSUMER_SECRET"
+ access_key= "YOUR_ACCESS_KEY"
+ access_secret = "YOUR_ACCESS_SECRET"
+
 
 #Passing in  twitter API authentication key
 auth = tweepy.OAuth1UserHandler(
@@ -126,16 +107,23 @@ for i in search_query:
     except BaseException as e:
         print('Status Failed On,',str(e))
 
-#undepress_tweets_df.to_csv("Data_Tweet_undepress.csv")
 
 undepress_tweets_df
 
+undepress_tweets_df.to_csv("Data_Tweet_undepress.csv")
 
 
-consumer_key = "SraD2oZY8D8MjpFJDHz6cIqe6"
-consumer_secret = "cRKx6zfitVD1BMInCdB7YTczd30zxh7hiToQsea94UIBs4rh4D"
-access_key= "1509839153982316546-PQnYJCu0Z6eodG2myvuiIoQPvg3ARD"
-access_secret = "rNSaoPTNe0nQBePdsTkion4RrJdZHzJrS9NWesaqgdYZm"
+
+
+
+# Due to privacy concerns, the API keys have been removed. 
+# If you're using this code, insert your own API keys in the appropriate places.
+
+ consumer_key = "YOUR_CONSUMER_KEY"
+ consumer_secret = "YOUR_CONSUMER_SECRET"
+ access_key= "YOUR_ACCESS_KEY"
+ access_secret = "YOUR_ACCESS_SECRET"
+
 
 #Passing in  twitter API authentication key
 auth = tweepy.OAuth1UserHandler(
@@ -169,12 +157,17 @@ for i in search_query:
 
 undepress_tweets0
 
-#undepress_tweets0.to_csv("undepress_tweets0.csv")
+undepress_tweets0.to_csv("undepress_tweets0.csv")
 
-consumer_key = "h1r2JohHCOMzrpZLXVZRRazi3"
-consumer_secret = "HeTtOasCAxTxw78PikObFIYkPzuB21mBCgx5GUm1Stvz5MDfuW"
-access_key= "964035289617494018-GKBW2kmouEOvBheRVLUd7x68MqNPlKU"
-access_secret = "L9wiUBXQwbmP3HJlDQuHiw8lVomkU2KdtmQwhHaXgsgJh"
+
+# Due to privacy concerns, the API keys have been removed. 
+# If you're using this code, insert your own API keys in the appropriate places.
+
+ consumer_key = "YOUR_CONSUMER_KEY"
+ consumer_secret = "YOUR_CONSUMER_SECRET"
+ access_key= "YOUR_ACCESS_KEY"
+ access_secret = "YOUR_ACCESS_SECRET"
+
 
 #Passing in  twitter API authentication key
 auth = tweepy.OAuth1UserHandler(
@@ -208,15 +201,21 @@ for i in search_query:
 
 undepress_tweets_df1
 
-tweets_data_N
+undepress_tweets_df1.to_csv("Data_Tweet.csv")
+
+
 
 import tweepy
 import pandas as pd
 
-consumer_key = "h1r2JohHCOMzrpZLXVZRRazi3"
-consumer_secret = "HeTtOasCAxTxw78PikObFIYkPzuB21mBCgx5GUm1Stvz5MDfuW"
-access_key= "964035289617494018-GKBW2kmouEOvBheRVLUd7x68MqNPlKU"
-access_secret = "L9wiUBXQwbmP3HJlDQuHiw8lVomkU2KdtmQwhHaXgsgJh"
+# Due to privacy concerns, the API keys have been removed. 
+# If you're using this code, insert your own API keys in the appropriate places.
+
+ consumer_key = "YOUR_CONSUMER_KEY"
+ consumer_secret = "YOUR_CONSUMER_SECRET"
+ access_key= "YOUR_ACCESS_KEY"
+ access_secret = "YOUR_ACCESS_SECRET"
+
 
 #Passing in  twitter API authentication key
 auth = tweepy.OAuth1UserHandler(
@@ -247,11 +246,21 @@ for i in search_query:
 
     except BaseException as e:
         print('Status Failed On,',str(e))
-
-#twets_df.to_csv('twet_df.csv')
-
+        
 twets_df
+
+twets_df.to_csv('twet_df.csv')
+
+tweets_data = pd.read_csv("/content/Comb-Data_Tweet.csv")
+tweets_data
+
+DF_1 = pd.read_csv("/content/main_comb.csv")
+DF_1
+
+tweets_data_N = pd.read_csv("/content/main_data.csv")
+tweets_data_N
 
 mental_df = pd.concat([ tweets_df,tweets_data,undepress_tweets_df,undepress_tweets0,undepress_tweets_df1,tweets_data_N,twets_df])
 
 mental_df
+mental_df.to_csv("Tweet_comb.csv")
